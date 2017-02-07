@@ -1,0 +1,84 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding  : {
+    bottom : 20px;
+    top    : 45px;
+  }
+  font-size : 15px;
+}
+
+footer {
+  text-align : center;
+  font-size  : 12px;
+  padding : {
+    left  : 15px;
+    right : 15px;
+  }
+}
+
+img {
+  margin   : {
+    right  : 10px;
+    bottom : 10px;
+  }
+}
+
+.parallax {
+  background   : {
+    image      : url('../images/badminton.jpg');
+    attachment : fixed;
+    position   : center;
+    repeat     : no-repeat;
+    size       : cover;
+  }
+  height : 915px;
+}
+
+.middle_parallax {
+  background   : {
+    image      : url('../images/volants.jpg');
+    attachment : fixed;
+    position   : center;
+    repeat     : no-repeat;
+    size       : cover;
+  }
+  height : 250px;
+}
+
+.caption {
+  position : absolute;
+  left     : 0;
+  top      : 50%;
+  width    : 100%;
+  text    : {
+    align : center;
+  }
+}
+
+.caption span.border {
+  border-radius  : 5px;
+  background : {
+    color    : rgba(200, 200, 200, 0.4);
+  }
+  color          : rgb(0, 0, 0);
+  padding        : 18px;
+  font-size      : 25px;
+  text-transform : uppercase;
+  text-shadow    : 2px 2px rgb(200, 200, 200);
+  letter-spacing : 10px;
+}
+
+.jumbotron {
+  margin-bottom : 0px;
+}
+
+.container {
+  margin-top : 25px;
+}
+
+.news {
+  margin-top   : 20px;
+  padding-left : 20px;
+  border-left  : 1px solid rgb(150, 150, 150);
+}
