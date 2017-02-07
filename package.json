@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+ssh://git@gitlab.com/tok_ra/PPE1.git"
   },
-  "author": "Allard Kévin, Julien Mathon",
+  "author": "Allard Kévin",
   "license": "ISC",
   "bugs": {
     "url": "https://gitlab.com/tok_ra/PPE1/issues"
@@ -34,6 +34,7 @@
     "gulp-uglify": "^2.0.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "mailcheck": "^1.1.1"
   }
 }
