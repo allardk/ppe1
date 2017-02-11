@@ -14,7 +14,7 @@ include "resources/layouts/header.php";
   -->
 <div class="container">
     <h1>&Agrave; propos du volant Basséen</h1>
-    
+
     <div id="accordion" role="tablist" aria-multiselectable="true">
         <div class="card">
             <div class="card-header" role="tab" id="headingOne">
