@@ -36,8 +36,7 @@ gulp.task('css', function () {
         .pipe(plugins.csscomb())
         .pipe(plugins.cssbeautify({indent: '    '}))
         .pipe(plugins.autoprefixer())
-        .pipe(gulp.dest(paths.css))
-        .pipe(plugins.notify('CSS compiled'));
+        .pipe(gulp.dest(paths.css));
 });
 gulp.task('min', function () {
     return gulp.src(paths.css)
@@ -45,8 +44,7 @@ gulp.task('min', function () {
         .pipe(plugins.rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest(paths.css))
-        .pipe(plugins.notify('CSS minimized'));
+        .pipe(gulp.dest(paths.css));
 });
 
 /*
@@ -59,6 +57,5 @@ gulp.task('script', function () {
         //.pipe(plugins.uglify())
         .pipe(plugins.concat('all.min.js'))
         .pipe(plugins.sourcemaps.write())
-        .pipe(gulp.dest(paths.js))
-        .pipe(plugins.notify('Coffee compiled'));
+        .pipe(gulp.dest(paths.js));
 });

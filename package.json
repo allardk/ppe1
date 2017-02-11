@@ -16,7 +16,7 @@
     "url": "https://gitlab.com/tok_ra/PPE1/issues"
   },
   "homepage": "https://gitlab.com/tok_ra/PPE1#README",
-  "devDependencies": {
+  "dependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
@@ -32,8 +32,6 @@
     "gulp-scss": "^1.4.0",
     "gulp-sourcemaps": "^2.3.0",
     "gulp-uglify": "^2.0.0"
-  },
-  "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "jquery": "^3.1.1",
     "mailcheck": "^1.1.1",
