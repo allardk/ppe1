@@ -31,7 +31,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-scss": "^1.4.0",
     "gulp-sourcemaps": "^2.3.0",
-    "gulp-uglify": "^2.0.0"
+    "gulp-uglify": "^2.0.0",
     "bootstrap": "^4.0.0-alpha.6",
     "jquery": "^3.1.1",
     "mailcheck": "^1.1.1",
