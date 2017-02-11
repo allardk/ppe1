@@ -34,7 +34,7 @@
     "gulp-uglify": "^2.0.0"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0-alpha.6",
     "jquery": "^3.1.1",
     "mailcheck": "^1.1.1",
     "tether": "^1.4.0"
