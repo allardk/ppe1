@@ -275,5 +275,4 @@ include "resources/layouts/header.php";
 </div>
 <!-- /-->
 
-<?php include('resources/layouts/js.php'); ?>
 <?php include('resources/layouts/footer.php'); ?>
