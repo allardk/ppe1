@@ -42,11 +42,11 @@ include "resources/layouts/header.php";
         <div class="form-group row">
             <div class="col-3">&nbsp;</div>
             <div class="col-8" align="right">
-                <input class="btn btn-primary" disabled="true" type="submit">
+                <input class="btn btn-primary" disabled="true" type="submit" value="Envoyer">
             </div>
         </div>
-
     </form>
+</div>
     <!-- /-->
 
     <?php include('resources/layouts/footer.php'); ?>
