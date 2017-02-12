@@ -29,9 +29,9 @@
             </li>
         </ul>
 
-        <div class="hidden-xs-down hidden-sm-down hidden-md-down form-inline mt-2 mt-md-0">
+        <div id="newsletter" class="hidden-xs-down hidden-sm-down hidden-md-down form-inline mt-2 mt-md-0">
             <input id="email" name="email" required class="form-control mr-sm-2" type="email" placeholder="Newsletter">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLive">
+            <button type="button" class="btn btn-primary" disabled="true" data-toggle="modal" data-target="#exampleModalLive">
                 Subscribe
             </button>
         </div>
