@@ -1,5 +1,5 @@
 ## Prerequisite
-Install Apache, PHP, NodeJS and npm
+Install Apache, PHP, Ruby (for gulp) NodeJS and npm
 
 ### Install library
 In the root web directory:
