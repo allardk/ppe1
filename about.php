@@ -19,14 +19,14 @@ include "resources/layouts/header.php";
         <div class="card">
             <div class="card-header" role="tab" id="headingOne">
                 <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false"
                        aria-controls="collapseOne">
                         Se licencier
                     </a>
                 </h5>
             </div>
 
-            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="card-block">
 
                     <div class="alert alert-info"><i class="fa fa-info-circle" aria-hidden="true"></i> Feuille
