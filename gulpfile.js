@@ -1,6 +1,7 @@
 var gulp    = require('gulp');
 var plugins = require('gulp-load-plugins')();
 var del     = require('del');
+var browserSync = require('browser-sync').create();
 
 var paths = {
     scss:   './resources/scss/**/*.scss',
@@ -58,4 +59,14 @@ gulp.task('script', function () {
         .pipe(plugins.concat('all.min.js'))
         .pipe(plugins.sourcemaps.write())
         .pipe(gulp.dest(paths.js));
+});
+
+gulp.task('serve', ['css'], function() {
+   browserSync.init({
+      proxy: "ppe1.dev"
+   });
+
+    gulp.watch("resources/scss/*.scss", ['css']);
+    gulp.watch("*.php").on('change', browserSync.reload);
+    gulp.watch("assets/css/*.css").on('change', browserSync.reload);
 });
