@@ -53,7 +53,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>Woohoo, you are subscribed to the Newsletter!</p>
+                <p>Woohoo, vous êtes inscrit à la Newsletter!</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
